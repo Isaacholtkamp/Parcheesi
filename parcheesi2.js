@@ -32,6 +32,9 @@ function run() {
 	console.log(Game_State.get_users());
 	//var myVar = eval(pieces[0]);
 	Game_State.set_board_spaces(drawBoard(context));
+	
+	
+	
 	//initGamePieces(red1);
 	//drawGamePiece(context, red1.xPos, red1.yPos);
 	Game_State.set_pieces(drawStartingGamePieces(context));

@@ -7,9 +7,11 @@ function render(ctx, Game){
 	var i = 0;
 	
 	var b = Game.get_board_spaces();
+
+	
 	num = b.length;
-	for(i; i < b; i++) {
-		drawBoardPiece(ctx, boardPieces[i]);
+	for(i; i < num; i++) {
+		drawBoardPiece(ctx, b[i]);
 	}
 	i = 0;
 	num = pieces.length;
